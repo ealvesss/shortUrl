@@ -1,0 +1,6 @@
+﻿services:
+  urlshortener:
+    image: urlshortener
+    build:
+      context: .
+      dockerfile: URLShortener/Dockerfile

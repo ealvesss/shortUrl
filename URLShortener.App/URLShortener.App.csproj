@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\URLShortener.Infra\URLShortener.Infra.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AWSSDK.SQS" Version="4.0.0-preview.10" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="7.3.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="7.3.1" />
+    </ItemGroup>
+
+</Project>
